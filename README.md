@@ -1,2 +1,2 @@
-# pratice
-Pratice
+Update reademe
+
