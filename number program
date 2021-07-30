@@ -1,0 +1,20 @@
+
+class Cloop
+ {
+   public static void main(String args[])
+   {
+     int num=100,count=0;
+     for(int i=1;i<=num;i++)
+     {
+     if(num%i==5)
+    {
+     count++;
+     }
+   }
+     if(count==5)
+ // System.out.println("5digit in 1 to 100:" +count);
+ {
+ System.out.println(num+ "5digit in 1 to 100:");  
+}
+}
+}
