@@ -1,0 +1,21 @@
+
+class Dcoder
+ {
+   public static void main(String args[])
+   {
+     long ano=2345668901l;
+     string bname="icici";
+     string baddress="11-28-456,kothawa,warangal";
+     string ifsccode="lcl3355667";
+     string ahname="karthik";
+     float amt=55000.0f;
+     short mbal=3000;
+     System.out.println(ano);
+     System.out.println(bname);
+     System.out.println(baddress);
+     System.out.println(ifscode);
+     System.out.println(ahname);
+     System.out.println(amt);
+     System.out.println(mbal);
+  }
+}
