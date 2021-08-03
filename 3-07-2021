@@ -1,0 +1,28 @@
+
+class Zomato
+ {
+   public void getrestarent()
+   { 
+    System.out.println("As per location");
+   }
+ }
+class Customer extends Zomato
+{
+  public void getrestarent()
+  {
+    System.out.println("As per review");
+  }
+  public void friend()
+  {
+    getrestarent ();
+    super.getrestarent();
+  }
+}
+class main
+{
+  public static void main(String args[])
+  {
+   Customer c1=new Customer();
+   c1.friend();
+  }
+}
