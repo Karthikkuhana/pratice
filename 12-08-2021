@@ -1,0 +1,19 @@
+import java.util.*;
+
+ // Compiler version JDK 11.0.2
+
+ class Dcode
+ {
+   public static void main(String args[])
+   { 
+     int num=-88;
+     if(num=-88)
+   {
+    System.out.println("positive");
+   }
+   else 
+   {
+   System.out.println("negative");
+   }
+ }
+}
