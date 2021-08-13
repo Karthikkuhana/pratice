@@ -1,0 +1,18 @@
+import java.util.TreeMap;
+
+ // Compiler version JDK 11.0.2
+
+public class Hashmap
+ {
+   public static void main(String[] args)
+   { 
+     TreeMap<Integer,String> m1=new TreeMap<>();
+     m1.put(1005,"one plus");
+     m1.put(7225,"samsung");
+     m1.put(1880,"xaimoi");
+     m1.put(2541,"Apple");
+     m1.put(4712,"oppo");
+    System.out.println(m1);
+   }
+ }
+
