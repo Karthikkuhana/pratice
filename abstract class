@@ -1,0 +1,38 @@
+
+abstract class RBI
+ {
+   abstract void minbal();
+   abstract void rateofintrest();
+ }
+abstract class SBI extends RBI
+{
+  int a=3000;
+  String b="8%";
+  public void minbal()
+  {
+  System.out.println("minbak:"+a+"RS/-");
+  }
+  public void rateofintrest()
+  {
+  System.out.println("Rate of inrest:"+b);
+  }
+  abstract void aadharlink();
+}
+class SBH extends SBI
+{
+  String c="karthik.gov.in";
+  public void aadharlink()
+  {
+  System.out.println("Adh_L:"+c);
+  }
+}
+public class Cust
+{
+  public static void main(String args[])
+  {
+    SBH s1=new SBH();
+    s1.minbal();
+    s1.rateofintrest();
+    s1.aadharlink();
+  }
+}
